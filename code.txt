@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- Source: user's uploaded PowerPoint 'Visualization of Human Life Journey.pptx' :contentReference[oaicite:0]{index=0} -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Visualization of Human Life Journey</title>
+  <style>
+    :root{
+      --bg:#f4f7fb; --card:#ffffff; --muted:#556078; --accent:#2b6cb0;
+      --accent-2:#14b8a6; --shadow: 0 8px 24px rgba(22,33,62,0.08);
+      --radius:14px; --maxw:1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      background: linear-gradient(180deg,#eef6fb 0%, #f7fbff 100%);
+      color:#0f1724; -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px;
+    }
+    .container{max-width:var(--maxw); margin:0 auto;}
+    header{
+      display:flex; gap:18px; align-items:center;
+      margin-bottom:22px;
+    }
+    .hero{
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color:#fff; padding:22px; border-radius:16px; box-shadow:var(--shadow);
+      flex:1;
+    }
+    .hero h1{margin:0;font-size:1.6rem;letter-spacing:.2px}
+    .hero p{margin:8px 0 0; opacity:.95}
+    .lead{
+      background:#fff; padding:18px; border-radius:12px; box-shadow:var(--shadow);
+      min-width:220px; text-align:center;
+    }
+    .lead strong{display:block;font-size:1.05rem}
+    nav{margin:18px 0; display:flex; gap:8px; flex-wrap:wrap;}
+    .pill{
+      background:#fff; border:1px solid #e6eef8; padding:8px 12px; border-radius:999px;
+      font-size:0.95rem; color:var(--muted); box-shadow:0 6px 18px rgba(11,22,48,0.04);
+    }
+
+    /* Slides / Sections */
+    .slides{display:grid; gap:18px; margin-top:8px;}
+    .slide{
+      background:var(--card); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow);
+      border:1px solid #eef6fb;
+    }
+    .slide h2{margin:0 0 8px; color:var(--accent)}
+    .stage-meta{display:flex; gap:12px; align-items:center; margin-bottom:10px}
+    .badge{
+      width:56px;height:56px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+      font-size:1.2rem;color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      box-shadow:0 6px 18px rgba(30,85,140,0.12);
+    }
+    .stage-desc{color:var(--muted); line-height:1.55}
+    ul{margin:8px 0 0 20px; color:var(--muted); line-height:1.5}
+    .flow{
+      margin:12px 0; padding:10px 14px; border-radius:999px; display:inline-block;
+      background:linear-gradient(90deg,#ffffff,#f4fbff); border:1px solid #e0f2f1; color:#0f1724;
+      box-shadow:0 6px 18px rgba(10,30,40,0.03);
+    }
+    .two-col{
+      display:grid; grid-template-columns:1fr 320px; gap:18px; align-items:start;
+    }
+    @media (max-width:880px){
+      .two-col{grid-template-columns:1fr}
+      .lead{min-width:unset}
+    }
+    footer{margin-top:20px; color:var(--muted); font-size:0.95rem}
+    .conclusion{background:linear-gradient(90deg,#fff,#f9fff9); padding:14px; border-radius:12px; border:1px solid #eef8f2; color:var(--muted)}
+    .cta{margin-top:12px; display:inline-block; background:var(--accent); color:#fff; padding:10px 14px; border-radius:10px; text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header / Title -->
+    <header>
+      <div class="hero" role="banner" aria-labelledby="pageTitle">
+        <h1 id="pageTitle">Visualization of Human Life Journey</h1>
+        <p><em>"As a Man think, So you Become."</em> — Set goals, explore, and turn your passions into achievements. You are the lead role of your life.</p>
+      </div>
+
+      <aside class="lead" aria-label="Quick note">
+        <strong>What we were meant to be</strong>
+        <div style="margin-top:6px; font-size:0.92rem; color:var(--muted)">
+          Settings: Set your goals. Explore things and everything. Turn your passions into your achievements.
+        </div>
+      </aside>
+    </header>
+
+    <!-- Navigation / Flow -->
+    <nav aria-label="Stages navigation">
+      <span class="pill">Birth</span>
+      <span class="pill">Childhood</span>
+      <span class="pill">Adolescence</span>
+      <span class="pill">Adulthood</span>
+      <span class="pill">Middle Age</span>
+      <span class="pill">Old Age</span>
+      <span class="pill">Death</span>
+    </nav>
+
+    <div class="two-col">
+
+      <!-- Main slides (left column) -->
+      <main class="slides" role="main">
+
+        <!-- Slide: Birth / Infancy -->
+        <section class="slide" id="birth">
+          <div class="stage-meta">
+            <div class="badge">👶</div>
+            <div>
+              <h2>Birth (Infancy)</h2>
+              <div class="stage-desc">
+                A new life begins. The baby is dependent on parents for survival, care and protection. Growth is rapid — learning to crawl, walk, and talk.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Rapid physical growth and sensory development</li>
+            <li>Bonding and attachment form the foundation of trust</li>
+            <li>Early care shapes long-term health and development</li>
+          </ul>
+        </section>
+
+        <!-- Slide: Childhood -->
+        <section class="slide" id="childhood">
+          <div class="stage-meta">
+            <div class="badge">🎒</div>
+            <div>
+              <h2>Childhood</h2>
+              <div class="stage-desc">
+                A period of learning, play and habit formation. Children start school, build friendships and develop curiosity about the world. Physical and mental growth are strong.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Formal learning and social skills develop</li>
+            <li>Formation of routines, values and study habits</li>
+            <li>Encouraging curiosity and safe exploration is key</li>
+          </ul>
+        </section>
+
+        <!-- Slide: Adolescence -->
+        <section class="slide" id="adolescence">
+          <div class="stage-meta">
+            <div class="badge">🧭</div>
+            <div>
+              <h2>Adolescence (Teenage)</h2>
+              <div class="stage-desc">
+                A transformation from child to adult. Physical changes (puberty), emotional growth and identity formation happen. Education, dreams and career planning begin to take shape.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Identity, values and independence develop</li>
+            <li>Focus on goals and passions—this is the stage to build direction for career and life</li>
+            <li>Guidance, mentorship and healthy choices are important</li>
+          </ul>
+        </section>
+
+        <!-- Slide: Adulthood -->
+        <section class="slide" id="adulthood">
+          <div class="stage-meta">
+            <div class="badge">🚀</div>
+            <div>
+              <h2>Adulthood</h2>
+              <div class="stage-desc">
+                A stage of responsibility and independence. Focus often shifts to higher education, career, marriage and family life. Adults contribute to society with work and skills.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Building a career, relationships and long-term plans</li>
+            <li>Balancing work, family, and personal growth</li>
+            <li>Continued learning and contribution to community</li>
+          </ul>
+        </section>
+
+        <!-- Slide: Middle Age -->
+        <section class="slide" id="middle-age">
+          <div class="stage-meta">
+            <div class="badge">🏗</div>
+            <div>
+              <h2>Middle Age</h2>
+              <div class="stage-desc">
+                Often a period of stability, reassessment and leadership. People focus on sustaining achievements, mentoring others and planning for later life.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Career consolidation and family responsibilities</li>
+            <li>Health awareness and financial planning gain prominence</li>
+            <li>Opportunity to mentor younger generations</li>
+          </ul>
+        </section>
+
+        <!-- Slide: Old Age -->
+        <section class="slide" id="old-age">
+          <div class="stage-meta">
+            <div class="badge">🌿</div>
+            <div>
+              <h2>Old Age</h2>
+              <div class="stage-desc">
+                The body may slow down. Retirement from work often occurs; focus moves to health, spirituality and family bonds. Wisdom and experience are shared with younger generations.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Emphasis on health, relationships and reflection</li>
+            <li>Sharing knowledge, mentoring and legacy-building</li>
+            <li>Finding meaning and connection becomes central</li>
+          </ul>
+        </section>
+
+        <!-- Slide: Death -->
+        <section class="slide" id="death">
+          <div class="stage-meta">
+            <div class="badge">🕊</div>
+            <div>
+              <h2>Death</h2>
+              <div class="stage-desc">
+                The natural end of the life cycle. Death reminds us life is temporary and precious. For many, spiritual beliefs give this stage meaning.
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li>Encourages reflection on legacy and purpose</li>
+            <li>Highlights the importance of living intentionally</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <!-- Right column: summary, flow and conclusion -->
+      <aside>
+        <div class="slide" aria-labelledby="sequenceTitle">
+          <h2 id="sequenceTitle">Life Sequence</h2>
+          <div class="flow" aria-hidden="false">Birth → Childhood → Adolescence → Adulthood → Middle Age → Old Age → Death</div>
+
+          <h3 style="margin-top:12px; color:#0b3b66">Short reminders</h3>
+          <ul>
+            <li>Every phase teaches lessons: love, responsibility, patience and wisdom.</li>
+            <li>Circumstances (good or bad) shape character and outlook.</li>
+            <li>Meaning arises from purpose, kindness and resilience—not only length of life.</li>
+          </ul>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <div class="slide conclusion" aria-labelledby="conclusionTitle">
+          <h2 id="conclusionTitle" style="margin-top:0; color:#196b8a">Conclusion</h2>
+          <p>14:10 29-08-202514:10 29-08-2025
+            Human life is a journey filled with different stages and circumstances — joy, struggle, growth and decline.
+            Each phase contributes to who we become. Live with purpose and compassion; the legacy we leave matters most.
+          </p>
+          <a class="cta" href="#birth">Start From Birth</a>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <div class="slide" style="text-align:center; font-size:0.95rem; color:var(--muted)">
+          <strong>Reminder</strong>
+          <p style="margin:8px 0 0">Absolutely — you are meant for something. You are the lead role of your life.</p>
+        </div>
+      </aside>
+
+    </div>
+
+    <footer>
+      <small>Content adapted from your uploaded presentation: Visualization of Human Life Journey.pptx. :contentReference[oaicite:1]{index=1}</small>
+    </footer>
+
+  </div>
+</body>
+</html>
